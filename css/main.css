@@ -21,7 +21,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.3); /* 0, 0, 0, 0.3*/
+    background: rgba( 0, 0, 0, 0.3); /* 255, 255, 255, 0.3 */
     backdrop-filter: blur(2px);
     z-index: -1;
 }
@@ -30,7 +30,7 @@ header {
     background-color: #e6ccff;
     width: 100%;
     z-index: 1000;
-    
+    padding: 1rem 0;
     top: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -140,7 +140,7 @@ nav ul li a:hover::after {
 }
 
 #countdown div {
-    background-color: #fff;
+    /* background-color: #fff; */
     border: 2px solid #5c2d91;
     border-radius: 1rem;
     padding: 1rem;
@@ -172,6 +172,22 @@ nav ul li a:hover::after {
     font-size: 1rem;
 }
 
+#about-section {
+    
+    width: 90%;
+    
+}
+
+#about-section h3 {
+    color: #9f5cd3;
+    margin: 25px;
+}
+
+#about-section p {
+    color: #9f5cd3;
+    margin: 25px;
+}
+
 #call-to-action-section {
     background-color: rgba(92, 45, 145, 0.5);
     text-align: center;
@@ -195,7 +211,7 @@ nav ul li a:hover::after {
     border-radius: 10px;
     text-decoration: none;
     border: 2px rgba(92, 45, 145, 0.5) solid;
-    /* transition: background-color 0.3s ease , color 0.3s ease; */
+    transition: background-color 0.3s ease , color 0.3s ease;
 }
 
 #call-to-action-section a:hover {
