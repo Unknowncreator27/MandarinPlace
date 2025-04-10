@@ -3,7 +3,7 @@ body {
     width: 100%;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("../res/raccoon_eating_noodles_img.webp");
+    background-image: url("C:/MandarinPlace/MandarinPlace/res/raccoon_eating_noodles_img.webp");
     background-size: cover; /*This scales the image to cover the screen*/
     background-position: center; /*This centers the image*/
     background-repeat: no-repeat;
@@ -75,6 +75,7 @@ nav ul li a::after {
     bottom: -5px;
     left: 0;
     height: 2px;
+    
     width: 0;
     background-color: #fff;
     transition: width 0.3s ease-in-out;
@@ -88,7 +89,12 @@ nav ul li a:hover::after {
     width: 100%;
     border-radius: 10px;
     bottom: -5px;
+    
+
 }
+
+
+
 .welcome {
     font-size: 3rem;
     color: #5c2d91;
@@ -167,8 +173,7 @@ nav ul li a:hover::after {
 }
 
 #about-section {
-    
-    width: 90%;
+    background-color: rgba(92, 45, 145, 0.5);
     
 }
 

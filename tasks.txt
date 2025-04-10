@@ -1,15 +1,15 @@
 who does what?
 
-Chris Van der Walt
- - 
+Christian Van der Walt
+ - participants page
 
 
 
  Hanro Lombard
-  - 
+  - Home page (landing page)
 
 Basheera Frazenburg
- - 
+ - adding animation (when in home page, home nav link has a border)
 
 Timothy Maritz
  - N/A (We think he left)
