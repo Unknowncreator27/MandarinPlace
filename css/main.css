@@ -85,6 +85,9 @@ body {
 #countdown-section {
     text-align: center;
     padding: 3rem 1rem;
+    width: 90%;
+    align-self: center;
+    margin-bottom: 20px;
     background-color: rgba(92, 45, 145, 0.5);
     border-radius: 10px;
     color: #5c2d91;
