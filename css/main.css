@@ -1,7 +1,9 @@
 body {
-    margin: 10px;
+    margin: 0;
+    width: 100%;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("/res/raccoon_eating_noodles_img.webp");
+    background-image: url("C:/MandarinPlace/MandarinPlace/res/raccoon_eating_noodles_img.webp");
     background-size: cover; /*This scales the image to cover the screen*/
     background-position: center; /*This centers the image*/
     background-repeat: no-repeat;
@@ -66,6 +68,46 @@ body {
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#countdown-section {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: rgba(92, 45, 145, 0.5);
+    border-radius: 10px;
+    color: #5c2d91;
+}
+
+#countdown div {
+    background-color: #fff;
+    border: 2px solid #5c2d91;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100px;
+
+}
+
+#countown-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+#countdown span {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#countdown p {
+    margin: 0;
+    font-size: 1rem;
 }
 
 footer {
