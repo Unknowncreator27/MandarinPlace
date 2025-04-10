@@ -1,0 +1,1 @@
+Hanro Lombard - next, I'm going to add animation to the nav items, I'm going to add some underline animation going from left to right when the user hovers.
