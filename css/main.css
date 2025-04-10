@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* background-attachment: fixed; This keeps the image in place when scrolling */
+    background-attachment: fixed; /*This keeps the image in place when scrolling*/
 
 }
 
