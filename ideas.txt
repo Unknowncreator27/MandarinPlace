@@ -2,3 +2,4 @@ Hanro Lombard - next, I'm going to add animation to the nav items, I'm going to 
 Hanro Lombard - how about a bit of customization to vscode, to tailor our experience?
 Hanro Lombard - Add a gloss over the background image
 Hanro Lombard - should I add smooth animation to the call to action join now button?
+Hanro Lombard - Make the videos container elevate
