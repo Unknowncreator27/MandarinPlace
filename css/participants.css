@@ -6,7 +6,7 @@
 
 
 header {
-    background-color: #e6ccff;
+    background-color: #C0392B;
     width: 100%;
     z-index: 1000;
     padding: 1rem 0;
@@ -53,7 +53,7 @@ nav {
 nav .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #5c2d91;
+    color: #f2bd92;
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ nav ul {
 nav ul li a {
     position: relative;
     text-decoration: none;
-    color: #5c2d91;
+    color: #f2bd92;
 
     font-weight: 500;
     transition: color 0.3s ease
@@ -80,12 +80,12 @@ nav ul li a::after {
     left: 0;
     height: 2px;
     width: 0;
-    background-color: #fff;
+    background-color: #f2bd92;
     transition: width 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-    color: #9f5cd3;
+    color: #fff3ea;
     
 }
 nav ul li a:hover::after {
@@ -96,7 +96,7 @@ nav ul li a:hover::after {
 
 .participants {
     font-size: 3rem;
-    color: #e6ccff;
+    color: #f2bd92;
     text-align: center;
     margin-top: 2rem;
     max-width: 800px;
@@ -104,33 +104,54 @@ nav ul li a:hover::after {
     padding: 1rem;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+table {
+    width: 80%;
+    margin: 3rem auto;
+    border-collapse: collapse;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background-color: #c0392b;
+    color: #fff;
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    text-shadow: 1px 1px #000;
+}
+
+td {
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #000;
+    text-align: center;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
 table, th, td {
-    border: 1px solid rgb(255, 255, 255);
-    width: 50%;
-    padding: 10px;
-    margin: auto;
-    font-size: 20pt;
-    border-collapse: collapse;
-  }
-
-table th{
-    background-color: #8400ff8e;
-    width: 70%;
-}
-
-tr:nth-child(even) {
-    background-color: hsla(271, 100%, 90%, 0.534);
-}
-tr:nth-child(odd) {
-    background-color: hsla(271, 100%, 90%, 0.534);
+    border: none;
 }
 
 footer {
-    background-color: #5c2d91;
-    color: #fff;
+    background-color: #C0392B;
+    color: #f2bd92;
     text-align: center;
     padding: 2rem 0;
     font-size: 1rem;
@@ -155,14 +176,14 @@ footer h4 {
 footer a {
     text-decoration: none;
 
-    color: #fff;
+    color: #f2bd92;
     font-size: 1.5rem;
     margin: 1rem;
     transition: color 0.3s ease;
 }
 
 footer a:hover {
-    color: #e6ccff; /*Color on hover*/
+    color: rgba(246, 205, 172, 0.3); /*Color on hover*/
 
 }
 
