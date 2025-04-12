@@ -18,13 +18,13 @@ header {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url("../res/raccoon_eating_noodles_img.webp");
     background-size: cover; /*This scales the image to cover the screen*/
     background-position: center; /*This centers the image*/
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
+    font-family: 'Chewy', sans-serif;
     flex-direction: column;
     background-attachment: fixed; /*This keeps the image in place when scrolling*/
 }
@@ -50,12 +50,21 @@ nav {
     
 }
 
-nav .logo {
+nav .noodle-logo {
+    width: 5%;
+    height: 5%;
+    background-color:#f2bd92;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/* nav .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: #f2bd92;
     text-decoration: none;
-}
+} */
+
 
 nav ul {
     list-style: none;
@@ -127,7 +136,7 @@ th {
 td {
     padding: 1rem;
     font-size: 1.2rem;
-    color: #000;
+    color: #fff;
     text-align: center;
 }
 

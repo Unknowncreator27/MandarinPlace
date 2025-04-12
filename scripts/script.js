@@ -5,9 +5,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const hoursText = document.getElementById("hours");
     const minutesText = document.getElementById("minutes");
     const secondsText = document.getElementById("seconds");
+    const noodleLogo = document.getElementById("noodle-logo");
 
     // start date of the event
     const eventDate = new Date("2025-07-25T13:15:00").getTime();
+
+    noodleLogo.addEventListener("click", ()=> {
+        goToMain()
+    });
 
     const countdownFunc = setInterval(() => {
         const now = new Date().getTime();
@@ -30,4 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
         minutesText.innerText = minutes.toString().padStart(2, "0");
         secondsText.innerText = seconds.toString().padStart(2, "0");
     }, 1000);
+
+    function goToMain(){
+        window.location.replace("./main.html");
+    }
 });
