@@ -189,6 +189,79 @@ nav ul li a:hover::after {
     font-size: 1rem;
 }
 
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    flex-wrap: flex;
+}
+
+.video-wrapper div {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 10px;
+    border-radius: 12px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.previous-contest-videos {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    text-align: center;
+    margin: 25px;
+}
+
+.previous-contest-videos h3 {
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+    
+}
+
+.previous-contest-videos .vid_1 {
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 20%;
+    
+}
+
+.vid_1 img {
+    width: 90%;
+    margin: 10px;
+    justify-items: center;
+    border-radius: 10px;
+}
+
+.previous-contest-videos .vid_2 {
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 20%;
+    
+}
+.vid_2 img {
+    width: 90%;
+    margin: 10px;
+    justify-items: center;
+    border-radius: 10px;
+}
+
+.previous-contest-videos .vid_3 {
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 20%;
+    
+}
+
+.vid_3 img {
+    width: 90%;
+    margin: 10px;
+    justify-items: center;
+    border-radius: 10px;
+}
 .content-container {
     align-items: center;
     align-self: center;
