@@ -5,7 +5,7 @@
 
 
 
-header {
+/* header {
     background-color: #C0392B;
     width: 100%;
     z-index: 1000;
@@ -15,7 +15,7 @@ header {
     border-bottom-right-radius: 10px;
     height: 80px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 body {
     background-image: url("../res/raccoon_eating_noodles_img.webp");
@@ -41,7 +41,7 @@ body::before {
     z-index: -1;
 }
 
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +56,7 @@ nav .noodle-logo {
     background-color:#f2bd92;
     border-radius: 10px;
     align-self: center;
-}
+} */
 
 /* nav .logo {
     font-size: 1.5rem;
@@ -66,7 +66,7 @@ nav .noodle-logo {
 } */
 
 
-nav ul {
+/* nav ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
@@ -102,7 +102,7 @@ nav ul li a:hover::after {
     width: 100%;
     border-radius: 10px;
     bottom: -5px;
-}
+} */
 
 .participants {
     font-size: 3rem;

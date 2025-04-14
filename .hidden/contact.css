@@ -1,0 +1,66 @@
+.get-in-touch {
+
+    border: 2px #f2bd92 solid;
+    margin: 20px auto;
+    padding: 12px;
+    width: 80%;
+    align-self: center;
+    display: flex;
+}
+
+.get-in-touch p {
+    color: #fff;
+}
+
+.sign-up-section {
+    background: rgba(246, 205, 172, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 2rem; /* or 5rem??*/
+    margin: 2rem auto;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+    color: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.sign-up-form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.sign-up-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+}
+
+.sign-up-form button {
+    background-color: #C0392B;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    display: block;
+    margin: 0 auto 0 auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+    
+}
+
+.sign-up-form button:hover {
+    background-color: #A93226;
+}
