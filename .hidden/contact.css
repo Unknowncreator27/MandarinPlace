@@ -6,6 +6,7 @@
     width: 80%;
     align-self: center;
     display: flex;
+    border-radius: 10px;
 }
 
 .get-in-touch p {
