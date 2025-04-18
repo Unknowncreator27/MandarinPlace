@@ -260,15 +260,19 @@ input:checked + .slider:before {
 }
 
 .video-wrapper {
-    display: flex;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-content: center;
-    gap: 2rem;
-    margin-top: 1rem;
     flex-wrap: flex;
+    gap: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .video-wrapper div {
-    background-color: rgba(255, 255, 255, 0.2);
+    
     padding: 1rem;
     border-radius: 10px;
     border-radius: 12px;
@@ -285,11 +289,12 @@ input:checked + .slider:before {
 }
 
 .previous-contest-videos {
-    display: flex;
-    flex-direction: column;
     border-radius: 12px;
     text-align: center;
     margin: 25px;
+    padding: 20%;
+    
+
 }
 
 .previous-contest-videos h3 {
@@ -302,7 +307,8 @@ input:checked + .slider:before {
 .previous-contest-videos .vid_1 {
     
     background-color: rgba(255, 255, 255, 0.5);
-    max-width: 20%;
+    max-width: 100%;
+    width: 100%;
     
 }
 
@@ -316,7 +322,8 @@ input:checked + .slider:before {
 .previous-contest-videos .vid_2 {
     
     background-color: rgba(255, 255, 255, 0.5);
-    max-width: 20%;
+    max-width: 100%;
+    width: 100%;
     
 }
 .vid_2 img {
@@ -329,7 +336,8 @@ input:checked + .slider:before {
 .previous-contest-videos .vid_3 {
     
     background-color: rgba(255, 255, 255, 0.5);
-    max-width: 20%;
+    max-width: 100%;
+    width: 100%;
     
 }
 
