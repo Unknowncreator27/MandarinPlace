@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/main.css"> 
-    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
-    <title>Register</title>
 </head>
 <body>
-
     <header>
         <nav>
             <!-- <a class="logo" href="main.html">Noodle Fest</a> -->
@@ -18,54 +17,40 @@
                 <li><a href="./main.html">Home</a></li>
                 <li><a href="./event_details.html">Details</a></li>
                 <li><a href="./participants.html">Participants</a></li>
-                <li><a href="./contact.html">Contact</a></li>           
+                <li><a href="./contact.html">Contact</a></li>
+                
             </ul>
-            <a href="./contact.html" id="register">Register</a>
+            <!-- <a href="./contact.html" id="register">Register</a> -->
         </nav>
     </header>
     <main>
-        
-    <div class="animation-toggle">
-        <label class="switch">
-            <input type="checkbox" id="bgToggle">
-            <span class="slider round"></span>
-
-        </label>
-    </div>
+        <div class="animation-toggle">
+            <label class="switch">
+                <input type="checkbox" id="bgToggle">
+                <span class="slider round"></span>
     
-    <section class="get-in-touch">
-        <p>Want to register to enter the contest? Fill out the form below to enter the competition</p>
-    </section>
+            </label>
+        </div>
 
-    <section class="sign-up-section">
-        <h2>Sign up right here.</h2>
-        <form action="#" method="post" class="sign-up-form">
-            <label for="firstname">First Name</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="lastname">Last name</label>
-            <input type="text" id="surname" name="surname" required>
-
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" required>
-
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email">
-
-            <label for="entry">New member?</label><br>
-            <input type="radio" id="yes" name="entry" value="yes">
-            <label for="yes">Yes</label><br>
-            <input type="radio" id="no" name="entry" value="no">
-            <label for="no">No</label>
-
-
-            <button type="submit">Sign me up!</button>
-        </form>
-    </section>
-
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <p>For all inquiries about the contest please fill out the form below:</p>
+            <form action="#" method="POST" class="contact-form">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <input type="text" name="subject" placeholder="Subject" required>
+              <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+          
     </main>
+
+
+
+
     <footer>
-        <p>Mandarin Place<sup>&copy;</sup>. All rights reserved. 2025</p>
+        <p>2025 Mandarin Place<sup>&copy;</sup>. All rights reserved.</p>
         <h4>Connect with us on:</h4>
         <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
         <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -73,11 +58,8 @@
         <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
         <a href="#"><ion-icon name="calendar-number-outline"></ion-icon></a>
     </footer>
-
-    <script src="./scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
-
-    
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
